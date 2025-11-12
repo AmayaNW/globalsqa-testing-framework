@@ -8,4 +8,8 @@ public class SecondStep {
 	public SecondStep(WebDriver driver) {
 		this.driver_s = driver;
 	}
+	
+	public void runSecondStep() {
+		System.out.println("Second step is running...");
+	}
 }
