@@ -1,0 +1,29 @@
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# Maven target folder
+/target/
+
+# Logs
+*.log
+
+# Mac OS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Browser drivers (optional if you keep them locally)
+chromedriver
+geckodriver
+IEDriverServer.exe
+
+# Temporary files
+*.tmp
+*.bak
+
+# IntelliJ IDEA files (if ever opened)
+.idea/
+*.iml
