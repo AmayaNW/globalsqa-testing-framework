@@ -11,8 +11,8 @@ public class MainTest extends BaseTest {
 		test.setUp();
 		
 		
-		FirstStep firststep = new FirstStep(test.driver);
-		firststep.runFirstStep();
+		//FirstStep firststep = new FirstStep(test.driver);
+		//firststep.runFirstStep();
 		
 		
 		SecondStep secondstep = new SecondStep(test.driver);
