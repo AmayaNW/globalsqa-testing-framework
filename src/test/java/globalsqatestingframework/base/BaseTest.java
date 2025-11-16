@@ -15,6 +15,10 @@ public class BaseTest {
 		driver.get("https://www.globalsqa.com/demo-site/");
 	}
 	
+	public void goToHomePage() {
+		driver.get("https://www.globalsqa.com/demo-site/");
+	}
+	
 	public void finish() {
 		if(driver != null) {
 			driver.quit();

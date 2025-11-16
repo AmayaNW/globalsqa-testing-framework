@@ -1,6 +1,8 @@
 package globalsqatestingframework.test;
 
 import globalsqatestingframework.base.BaseTest;
+import globalsqatestingframework.steps.FirstStep;
+import globalsqatestingframework.steps.SecondStep;
 import globalsqatestingframework.steps.ThirdStep;
 
 public class MainTest extends BaseTest {
@@ -10,14 +12,14 @@ public class MainTest extends BaseTest {
 		test.setUp();
 		
 		
-		//FirstStep firststep = new FirstStep(test.driver);
-		//firststep.runFirstStep();
+		FirstStep firststep = new FirstStep(test.driver, test);
+		firststep.runFirstStep();
 		
 		
-		//SecondStep secondstep = new SecondStep(test.driver);
-		//secondstep.runSecondStep();
+		SecondStep secondstep = new SecondStep(test.driver, test);
+		secondstep.runSecondStep();
 		
-		ThirdStep thirdstep = new ThirdStep(test.driver);
+		ThirdStep thirdstep = new ThirdStep(test.driver, test);
 		thirdstep.runThirdStep();
 		
 		//test.finish();
