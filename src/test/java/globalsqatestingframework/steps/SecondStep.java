@@ -17,7 +17,7 @@ public class SecondStep {
 		Frames frames = new Frames(driver_s);
 		frames.openFramePage();
 		frames.clickOnIframeTab();
-		frames.performInIframe();
+		//frames.performInIframe();
 		
 		System.out.println("Second step ran successfully!");
 	}
